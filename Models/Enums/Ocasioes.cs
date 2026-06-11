@@ -4,7 +4,18 @@ using System.Text;
 
 namespace ListaPerfumes.Models.Enums
 {
-    internal class Ocasioes
+    public enum Ocasioes
     {
+        Dia,
+        Noite,
+        Trabalho,
+        Festas,
+        Casual,
+        Esporte,
+        Encontro,
+        Formal,
+        PasseioParque,
+        PasseioNoite,
+        Reuniao,
     }
 }

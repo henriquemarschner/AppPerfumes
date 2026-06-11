@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ListaPerfumes.Models.Enums
 {
-    internal class TipoPerfume
+    public enum TipoPerfume
     {
+        Nicho,
+        Designer,
+        Arabe,
+        Nacional,
     }
 }

@@ -4,7 +4,24 @@ using System.Text;
 
 namespace ListaPerfumes.Models.Enums
 {
-    internal class FmlOlfativa
+    public enum FmlOlfativa
     {
+        Ambar,
+        Baunilha,
+        Coco,
+        Amadeirada,
+        Cítrico,
+        Aquatico,
+        Gourmand,
+        Aromático,
+        Frutal,
+        Verde,
+        Patchouli,
+        Caramelo,
+        FrescoEspeciado,
+        Floral,
+        EspeciadoQuente,
+        Especiado,
+        Oriental,
     }
 }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ListaPerfumes.Models.Enums
 {
-    internal class Status
+    public enum Status
     {
+        Tenho,
+        WishList,
+        QueroTestar,
+        JaTive,
     }
 }
