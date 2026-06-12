@@ -1,76 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ListaPerfumes.Models
+﻿namespace ListaPerfumes.Models
 {
     public class Wishlist
     {
-        public int id;
-        public int perfumeId;
-        public Perfume perfume;
+        public int Id { get; set; }
+        public int PerfumeId { get; set; }
+        public Perfume Perfume { get; set; } = null!;
 
-        public int prioridade;
-        public decimal? precoAtualPY;
-        public DateTime? ultimaConsultaPreco;
-        public string? obs;
-        public DateTime adcEm;
-
-    public Wishlist()
-        {
-            id = 0;
-            perfumeId = 0;
-            prioridade = 0;
-            precoAtualPY = null;
-            ultimaConsultaPreco = null;
-            obs = null;
-            adcEm = DateTime.Now;
-            ultimaConsultaPreco = null;
-        }
-        public Wishlist(int perfumeId, int prioridade, decimal? precoAtualPY, DateTime? ultimaConsultaPreco, string? obs, DateTime adcEm)
-        {
-            this.perfumeId = perfumeId;
-            this.prioridade = prioridade;
-            this.precoAtualPY = precoAtualPY;
-            this.ultimaConsultaPreco = ultimaConsultaPreco;
-            this.obs = obs;
-            this.adcEm = adcEm;
-        }
-
-        public int PerfumeId
-        {
-            get => perfumeId;
-            set => perfumeId = value;
-        }
-
-        public int Prioridade
-        {
-            get => prioridade;
-            set => prioridade = value;
-        }
-
-            public decimal? PrecoAtualPY
-            {
-                get => precoAtualPY;
-                set => precoAtualPY = value;
-            }
-    
-            public DateTime? UltimaConsultaPreco
-            {
-                get => ultimaConsultaPreco;
-                set => ultimaConsultaPreco = value;
-            }
-    
-            public string? Obs
-            {
-                get => obs;
-                set => obs = value;
-            }
-    
-            public DateTime AdcEm
-            {
-                get => adcEm;
-                set => adcEm = value;
-        }
+        public int Prioridade { get; set; }
+        public decimal? PrecoAlvo { get; set; }
+        public decimal? PrecoAtualPY { get; set; }
+        public DateTime? UltimaConsultaPreco { get; set; }
+        public string? Obs { get; set; }
+        public DateTime AdcEm { get; set; } = DateTime.Now;
     }
 }
