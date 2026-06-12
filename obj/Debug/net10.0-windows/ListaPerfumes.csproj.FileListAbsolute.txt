@@ -1,0 +1,6 @@
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\ListaPerfumes.csproj.AssemblyReference.cache
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\ListaPerfumes_Content.g.cs
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\ListaPerfumes_MarkupCompile.cache
+C:\Users\Cta\Source\Repos\AppPerfumes\obj\Debug\net10.0-windows\ListaPerfumes_MarkupCompile.lref
